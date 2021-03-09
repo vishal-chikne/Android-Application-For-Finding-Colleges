@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:layout_centerInParent="true"
+    tools:context=".Main26Activity"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical">
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Pillai College Of Engineering"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textColor="#FFFFFF"
+                android:textSize="28sp" />
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="218dp"
+                android:padding="10dp"
+                android:background="@drawable/pillai" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pillai's Institute of Information Technology, Engineering, Media Studies and Research now renamed to Pillai College of Engineering is an engineering college in New Panvel, Navi Mumbai, Maharashtra, India. It is commonly referred to as PIITEMSR also as PIIT, also as PIITE. It is affiliated to the University of Mumbai"
+                android:background="#ffffff"
+                android:textSize="15sp"
+                android:padding="10dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Address: Dr. K. M. Vasudevan Pillai Campus, Plot No. 10, Sector 16, New Panvel, Navi Mumbai, Maharashtra 410206"
+                android:background="#ffffff"
+                android:textSize="15sp"
+                android:padding="10dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Founded: 1999"
+                android:background="#ffffff"
+                android:textSize="15sp"
+                android:padding="10dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Campus Size: 16 Acres"
+                android:background="#ffffff"
+                android:textSize="15sp"
+                android:padding="10dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Total Faculty: 164"
+                android:background="#ffffff"
+                android:textSize="15sp"
+                android:padding="10dp"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:id="@+id/cw1"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="25dp"
+                    app:cardCornerRadius="25dp">
+
+                    <ImageView
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/map"
+                        />
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:id="@+id/cw2"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="25dp"
+                    app:cardCornerRadius="25dp">
+
+                    <ImageView
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/website" />
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:id="@+id/cw3"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="25dp"
+                    app:cardCornerRadius="25dp">
+
+                    <ImageView
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/call" />
+
+                </android.support.v7.widget.CardView>
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
